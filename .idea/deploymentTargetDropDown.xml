@@ -14,6 +14,9 @@
       <entry key="app.lemonade">
         <State />
       </entry>
+      <entry key="app.tipcalcultor">
+        <State />
+      </entry>
     </value>
   </component>
 </project>

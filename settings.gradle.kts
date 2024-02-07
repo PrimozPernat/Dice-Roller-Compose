@@ -16,3 +16,4 @@ dependencyResolutionManagement {
 rootProject.name = "Dice Roller Compose"
 include(":app")
 include(":app:lemonade")
+include(":app:tipcalcultor")
