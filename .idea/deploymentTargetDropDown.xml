@@ -2,10 +2,7 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="GreetingPreview">
-        <State />
-      </entry>
-      <entry key="TipUITests">
+      <entry key="ArtSpaceUITest">
         <State />
       </entry>
       <entry key="app">
@@ -23,7 +20,7 @@
       <entry key="app.tipcalcultor">
         <State />
       </entry>
-      <entry key="calculate_20_percent_tip()">
+      <entry key="useAppContext()">
         <State />
       </entry>
     </value>
