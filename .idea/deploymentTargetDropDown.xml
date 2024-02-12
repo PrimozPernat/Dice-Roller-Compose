@@ -5,6 +5,9 @@
       <entry key="GreetingPreview">
         <State />
       </entry>
+      <entry key="TipUITests">
+        <State />
+      </entry>
       <entry key="app">
         <State />
       </entry>
@@ -15,6 +18,9 @@
         <State />
       </entry>
       <entry key="app.tipcalcultor">
+        <State />
+      </entry>
+      <entry key="calculate_20_percent_tip()">
         <State />
       </entry>
     </value>
