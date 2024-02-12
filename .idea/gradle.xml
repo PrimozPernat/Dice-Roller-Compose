@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app/artspaceapp" />
             <option value="$PROJECT_DIR$/app/lemonade" />
             <option value="$PROJECT_DIR$/app/tipcalcultor" />
           </set>
