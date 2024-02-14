@@ -3,7 +3,7 @@ package pp.dice.roller.listapp.data
 import pp.dice.roller.listapp.R
 import pp.dice.roller.listapp.model.Affirmation
 
-class Datasource {
+class DataSourceList {
     fun loadAffirmations(): List<Affirmation> {
         return listOf<Affirmation>(
             Affirmation(R.string.affirmation1, R.drawable.image1),

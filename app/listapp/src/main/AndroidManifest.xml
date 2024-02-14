@@ -9,6 +9,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DiceRollerCompose">
         <activity
+            android:name=".GridListActivity"
+            android:exported="false"
+            android:label="@string/title_activity_grid_list"
+            android:theme="@style/Theme.DiceRollerCompose" />
+        <activity
             android:name=".ListActivity"
             android:exported="true"
             android:label="@string/app_name"
