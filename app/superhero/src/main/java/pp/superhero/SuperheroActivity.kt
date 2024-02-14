@@ -13,6 +13,8 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.layout.sizeIn
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Card
@@ -80,7 +82,7 @@ fun HeroTopBar(modifier: Modifier = Modifier) {
 @Composable
 fun HeroItem(hero: Hero, modifier: Modifier = Modifier) {
     Card(
-        modifier = Modifier
+        modifier = modifier
             .fillMaxWidth()
             .clip(MaterialTheme.shapes.large)
             .padding(start = 16.dp, end = 16.dp)
@@ -88,7 +90,7 @@ fun HeroItem(hero: Hero, modifier: Modifier = Modifier) {
         Row(
             modifier = Modifier
                 .padding(16.dp)
-                .height(72.dp)
+                .sizeIn(minHeight = 72.dp)
         ) {
             Column(
                 modifier = Modifier
@@ -109,7 +111,7 @@ fun HeroItem(hero: Hero, modifier: Modifier = Modifier) {
                 painter = painterResource(id = hero.imageRes),
                 contentDescription = "",
                 alignment = Alignment.CenterEnd,
-                modifier = Modifier.clip(MaterialTheme.shapes.small)
+                modifier = Modifier.clip(MaterialTheme.shapes.small).size(72.dp)
             )
 
         }
