@@ -75,10 +75,6 @@ fun HeroTopBar(modifier: Modifier = Modifier) {
     TopAppBar(title = {
         Text(text = "Superheros", textAlign = TextAlign.Center, modifier = Modifier.fillMaxWidth())
     })
-
-    Box {
-
-    }
 }
 
 @Composable
