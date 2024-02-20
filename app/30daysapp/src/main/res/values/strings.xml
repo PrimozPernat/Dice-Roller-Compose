@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">30DaysApp</string>
+    <string name="scrambled_eggs_title">Scrambled Eggs</string>
+    <string name="scrambled_eggs_instructions">A classic breakfast dish made by beating eggs and cooking them gently in a pan.</string>
+    <string name="five_min_duration">5 minutes</string>
+    <string name="ten_min_duration">10 minutes</string>
+    <string name="fifteen_min_duration">15 minutes</string>
+    <string name="grill_sandwich_title">Grilled Cheese Sandwich</string>
+    <string name="grill_sandwich_instructions">Simple yet satisfying, this sandwich features melted cheese between slices of toasted bread.</string>
+    <string name="spaghetti_aglio_e_olio_title">Spaghetti Aglio e Olio</string>
+    <string name="spaghetti_aglio_e_olio_instructions">An Italian pasta dish made with garlic, olive oil, and chili flakes, tossed with spaghetti.</string>
+</resources>

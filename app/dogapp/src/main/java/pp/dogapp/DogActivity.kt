@@ -4,12 +4,10 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.annotation.StringRes
-import androidx.compose.animation.animateColorAsState
 import androidx.compose.animation.animateContentSize
 import androidx.compose.animation.core.Spring
 import androidx.compose.animation.core.spring
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
@@ -43,7 +41,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
@@ -90,9 +87,7 @@ fun DogTopAppBar(modifier: Modifier = Modifier) {
             verticalAlignment = Alignment.CenterVertically
         ) {
             Image(painter = painterResource(id = R.drawable.ic_woof_logo), contentDescription = "")
-            Text(
-                text = "Dog List", modifier = modifier
-            )
+            Text(text = "Dog List", modifier = modifier)
         }
     })
 }
@@ -102,10 +97,7 @@ fun DogItem(dog: Dog, modifier: Modifier = Modifier) {
     var expanded by remember {
         mutableStateOf(false)
     }
-//    val color by animateColorAsState(
-//        targetValue = if (expanded) MaterialTheme.colorScheme.secondary else MaterialTheme.colorScheme.primary,
-//        label = ""
-//    )
+
     Card(
         modifier = modifier
             .padding(4.dp)
@@ -178,9 +170,7 @@ fun DogItemButton(expanded: Boolean, onClick: () -> Unit, modifier: Modifier = M
 @Composable
 fun DogHobby(@StringRes dogHobby: Int, modifier: Modifier = Modifier) {
     Column(modifier = modifier) {
-        Text(
-            text = stringResource(id = R.string.about), style = MaterialTheme.typography.labelSmall
-        )
+        Text(text = stringResource(id = R.string.about), style = MaterialTheme.typography.labelSmall)
         Text(text = stringResource(id = dogHobby), style = MaterialTheme.typography.bodyLarge)
     }
 }

@@ -8,11 +8,27 @@
       <entry key="app">
         <State />
       </entry>
+      <entry key="app.30daysapp">
+        <State />
+      </entry>
       <entry key="app.artspaceapp">
         <State />
       </entry>
       <entry key="app.dogapp">
-        <State />
+        <State>
+          <targetSelectedWithDropDown>
+            <Target>
+              <type value="QUICK_BOOT_TARGET" />
+              <deviceKey>
+                <Key>
+                  <type value="VIRTUAL_DEVICE_PATH" />
+                  <value value="C:\Users\Primoz\.android\avd\Pixel_2_API_31.avd" />
+                </Key>
+              </deviceKey>
+            </Target>
+          </targetSelectedWithDropDown>
+          <timeTargetWasSelectedWithDropDown value="2024-02-19T13:29:35.361345800Z" />
+        </State>
       </entry>
       <entry key="app.lemodaned">
         <State />
